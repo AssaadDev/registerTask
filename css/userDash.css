@@ -1,0 +1,76 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info,
+.edit {
+    width: 50%;
+    height: 600px;
+    border: solid 3px black;
+    margin: 20px;
+    text-align: center;
+}
+
+.persInfo {
+    margin-top: 80px;
+}
+
+.editPers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin: 5px;
+    background: none;
+    border: solid 2px black;
+    color: white;
+}
+
+input:focus-within {
+    background-color: rgb(21, 61, 121);
+}
+
+.sub {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 5px 20px;
+    color: white;
+}
+
+.sub:hover {
+    background-color: black;
+}
+
+.spc {
+    margin-bottom: 20px;
+}
+
+.light {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(167, 0, 0);
+    box-shadow: 0px 0px 10px 5px rgb(238, 100, 100);
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.posLight {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+}
+
+.x {
+    margin-top: 20px;
+}

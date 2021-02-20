@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(220, 88, 224, 0.849);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+    background-color: rgba(220, 88, 224);
+    border: solid 3px black;
+    z-index: 1;
+    padding: 0 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 3px black;
+    padding: 30px;
+}
+
+.div1,
+.div2 {
+    padding: 10px;
+    margin-top: 20px 40px;
+}
+
+.div1>input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.div1>input {
+    margin: 20px 30px;
+    padding: 10px 20px;
+    background: none;
+    color: white;
+}
+
+.div1>input:focus-within {
+    background-color: rgb(144, 0, 163);
+}
+
+.div2>input {
+    margin: 0px 80px;
+    padding: 10px 30px;
+    background-color: cyan;
+    color: black;
+    font-size: 20px;
+}
+
+.div2>a:hover,
+.div2>input:hover {
+    background-color: rgb(0, 0, 0);
+    color: cyan;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.div2>a {
+    margin: 0px 80px;
+    padding: 10px 20px;
+    background-color: cyan;
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    padding: 15px 0;
+    text-decoration: none;
+    border: solid 1px black;
+    background-color: cyan;
+}

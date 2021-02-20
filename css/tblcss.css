@@ -1,0 +1,38 @@
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 28px;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
+
+tr,
+th,
+td {
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+}
+
+.x {
+    border: none;
+}
+
+.btn {
+    font-size: 20px;
+    text-decoration: none;
+    border: solid 1px black;
+    background: red;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    background: white;
+    color: red;
+}

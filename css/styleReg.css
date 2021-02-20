@@ -1,0 +1,89 @@
+body {
+    background-color: darkorchid;
+    color: honeydew;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tire {
+    background: rgba(0, 0, 0, 0.404);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    font-family: monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+label {
+    font-size: 20px;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+input {
+    padding: 10px;
+    width: 350px;
+    background: none;
+    border: solid 1px white;
+    box-shadow: 0px 0px 10px 7px rgba(160, 163, 163, 0.85);
+    color: white;
+    margin: 15px 0;
+}
+
+input:focus {
+    box-shadow: 0px 0px 28px 10px rgba(106, 249, 255, 0.85);
+}
+
+.xSub:focus {
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.xSub {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 40px;
+    box-shadow: none;
+    background-color: rgb(70, 145, 243);
+}
+
+.xSub:hover {
+    color: rgb(70, 145, 243);
+    background-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
